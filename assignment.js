@@ -22,6 +22,9 @@ console.log("Product: " + product);
 console.log("Quotient: " + quotient);
 
 // 3. Write a program that converts Celsius to Fahrenheit.
+let celsius = 25;
+let fahrenheit = (celsius * 9/5) + 32;
+console.log(celsius + "°C is " + fahrenheit + "°F"); // Output: 25°C is 77°F
 
 // 4. Create a program that calculates the area of a rectangle using variables for length and width.
 let length = 5;
